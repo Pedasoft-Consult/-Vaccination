@@ -68,8 +68,8 @@ The goal is to analyze the impact of vaccination on the spread of an infectious 
 This analysis underscores the importance of vaccination in managing epidemics and achieving herd immunity.
 ---
 <br><br>
-<img src = "https://github.com/Pedasoft-Consult/-Vaccination/main/output/epidemic.png?raw=true">
----
+<img src = "https://github.com/Pedasoft-Consult/-Vaccination/blob/main/output/epidemic.png?raw=true">
+
 
 ## **Expected Outcomes**
 - Quantitative insights into how vaccination impacts the progression of an infectious disease.
