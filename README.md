@@ -110,8 +110,6 @@ I am an AI Enthusiast and  Data science & ML practitioner
 
 
 
-[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
-[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
-[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
-
-
+[![github](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/refs/heads/main/icons//icons/git.svg)][1]
+[![linkedin](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/refs/heads/main/icons//iconmonstr-linkedin-5.svg)][2]
+[![tableau](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/refs/heads/main/icons//icons/icons8-tableau-software%20(1).svg)][3]
