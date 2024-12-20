@@ -110,6 +110,9 @@ I am an AI Enthusiast and  Data science & ML practitioner
 
 
 
-[![github](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/blob/main/icons//icons/git.svg)][1]
-[![linkedin](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/blob/main/icons/iconmonstr-linkedin-5.svg)][2]
-[![tableau](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/blob/main/icons/icons8-tableau-software-1.svg][3]
+[![github](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/main/icons/icons/git.svg)](https://github.com/Pedasoft-Consult)
+[![linkedin](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/main/icons/iconmonstr-linkedin-5.svg)](https://linkedin.com/in/Pedasoft-Consult)
+[![tableau](https://raw.githubusercontent.com/Pedasoft-Consult/-Vaccination/main/icons/icons8-tableau-software-1.svg)](https://tableau.com/profile/Pedasoft-Consult)
+
+
+
