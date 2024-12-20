@@ -13,12 +13,102 @@ The goal is to analyze the impact of vaccination on the spread of an infectious 
 3. **Does vaccination help achieve herd immunity, and if so, how quickly?**
    - Evaluate the time required to reach herd immunity under different vaccination scenarios.
 
-## **Approach**
-- Use the SIR model to simulate the spread of disease in a population.
-- Introduce vaccination as a parameter to reduce the susceptible population and assess its effect on the infected and recovered groups.
-- Perform comparative analysis to highlight differences in disease dynamics with and without vaccination.
+---
+
+## **Solution Approach**
+
+### **Model Parameters**
+- **Population size:** \( N = 1000 \)
+- **Basic reproduction number:** \( R_0 = 3 \)
+- **Recovery rate:** \( \gamma = 1/5 \) (assumes an average recovery time of 5 days)
+- **Infection rate:** \( \beta = R_0 \cdot \gamma \)
+- **Vaccination rate:** 50%
+
+### **Initial Conditions**
+- **Without vaccination:** All but one individual are susceptible.
+- **With vaccination:** 50% of the population is vaccinated, starting as "recovered."
+
+### **Simulation**
+- Iteratively calculate changes in the susceptible (\( S \)), infected (\( I \)), and recovered (\( R \)) populations over 98 days (14 weeks).
+- Use the SIR model differential equations to simulate disease spread:
+  - \( \frac{dS}{dt} = -\beta \cdot S \cdot I / N \)
+  - \( \frac{dI}{dt} = \beta \cdot S \cdot I / N - \gamma \cdot I \)
+  - \( \frac{dR}{dt} = \gamma \cdot I \)
+
+### **Comparison**
+- Track population dynamics with and without vaccination.
+- Highlight differences in infection peaks and recovery rates between the two scenarios.
+
+### **Visualization**
+- Plot the time series of susceptible, infected, and recovered populations for both scenarios.
+- Display the herd immunity threshold (\( N / R_0 \)) for reference.
+
+---
+
+## **Key Observations**
+
+### **Without Vaccination**
+- The disease spreads rapidly due to a fully susceptible population.
+- The peak of infections is higher, and the epidemic lasts longer.
+
+### **With Vaccination**
+- A significant portion of the population is initially immune (vaccinated).
+- The number of infected individuals remains much lower, and the epidemic resolves faster.
+
+### **Herd Immunity Threshold**
+- Vaccination reduces the susceptible population below the herd immunity threshold, mitigating disease spread.
+
+---
+
+## **Insights from the Plot**
+- **Flattening the Curve:** Vaccination dramatically flattens the infection curve and reduces the epidemic's impact on the population.
+- **Indirect Protection:** Recovered individuals (vaccinated) act as a protective barrier, indirectly safeguarding the susceptible population.
+- **Herd Immunity Threshold:** The plot highlights the minimum population immunity required to halt disease spread.
+
+This analysis underscores the importance of vaccination in managing epidemics and achieving herd immunity.
+
+---
 
 ## **Expected Outcomes**
 - Quantitative insights into how vaccination impacts the progression of an infectious disease.
 - Understanding the role of vaccination in achieving herd immunity and reducing the overall burden of the disease.
+
+
+
+
+
+
+
+
+
+
+
+## References:
+[Recommendation systems](https://towardsdatascience.com/introduction-to-recommender-systems-1-971bd274f421)<br>
+[Recommender systems tutorial](https://www.kaggle.com/kanncaa1/recommendation-systems-tutorial)
+
+
+
+### Feedback
+
+If you have any feedback, please reach out at kepedahel@gmail.com
+
+
+### 🚀 About Me
+#### Hi, I'm Pedahel! 👋
+I am an AI Enthusiast and  Data science & ML practitioner
+
+
+
+
+[1]: https://github.com/Pradnya1208
+[2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
+[3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
+[4]: https://twitter.com/Pradnya1208
+
+
+[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
+[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
+[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
+[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c9f9c5dc4e24eff0143b3056708d24650cbccdde/icons/iconmonstr-twitter-5.svg)][4]
 
