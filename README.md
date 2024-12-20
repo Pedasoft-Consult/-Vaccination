@@ -66,7 +66,9 @@ The goal is to analyze the impact of vaccination on the spread of an infectious 
 - **Herd Immunity Threshold:** The plot highlights the minimum population immunity required to halt disease spread.
 
 This analysis underscores the importance of vaccination in managing epidemics and achieving herd immunity.
-
+---
+<br><br>
+<img src = "https://github.com/Pedasoft-Consult/-Vaccination/main/output/epidemic.png?raw=true">
 ---
 
 ## **Expected Outcomes**
